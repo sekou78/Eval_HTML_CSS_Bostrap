@@ -108,7 +108,15 @@ legend {
     padding: 3px;
     border-radius: 3px;
 }
+/*Formulaire*/
+.com {
+  padding: 50px;
+}
 
+.header-form h1 {
+  text-align: center;
+  color: red;
+}
 
 
 
