@@ -37,12 +37,6 @@ a {
   background-color: greenyellow;
 }
 /*Main de Body cover*/
-.cover {
-  /*display: flex;
-  align-items: center;*/
-
-}
-
 .cover-text {
   padding-right: 10px;
 }
@@ -186,9 +180,49 @@ legend {
 }
 
 /*advertisement*/
+.header-adver {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 20px;
+  color: #561285;
+}
 
+.header-adver img {
+  float: left;
+}
 
+.main-adver .flux {
+  display: flex;
+    gap: 50px;
+}
 
+.logo {
+  background-color: rgba(52, 3, 3, 0.584);
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.main-adver .text {
+  color: white;
+  font-size: 20px;
+}
+
+.logo .container-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.logo .container-images li {
+  background-color: white;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.logo .container-images li img {
+  width: 100%;
+  height: 100%;
+}
 
 
 
