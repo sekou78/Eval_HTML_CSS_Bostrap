@@ -13,11 +13,14 @@
   </head>
 
   <body>
-
+  <form method="get" action="">
     <header class="header-form">
-      <h1>
-        Formulaire de demande
-      </h1>
+      <p>
+        <img src="ressources/icone/icone.png" class="icon" alt="image reduit du logo">
+        <h1>
+          Formulaire de demande
+        </h1>
+    </p>
     </header>
 
     <main class="main-form">
@@ -67,12 +70,17 @@
           <input type="file" id="videofile" accept="video/*" multiple>
         </p>
       </form>
+      <p class="terms-conditions">
+        <input type="checkbox" name="termes et conditions" id="termes et conditions"> 
+        <label for="termes et conditions">En cochant cette case vous acceptez les termes 
+          et conditions de Bricole Tout!!!</label>
+      </p>
     </main>
 
     <footer class="footer-form">
-      <button type="button" class="btn btn-primary btn-lg">Envoyer</button>
+      <button type="button" title="Envoyer votre Demande" class="btn btn-primary btn-lg">Envoyer</button>
     </footer>
-    
+  </form>  
   </body>
 
 </html>
