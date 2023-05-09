@@ -38,8 +38,9 @@ a {
 }
 /*Main de Body cover*/
 .cover {
-  display: flex;
-  align-items: center;
+  /*display: flex;
+  align-items: center;*/
+
 }
 
 .cover-text {
@@ -51,18 +52,23 @@ a {
   color: green;
 }
 
+.introduction {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
 .image-home {
   width: 55%;
   flex-shrink: 0;
   height: 300px;
   object-fit: contain;
   object-position: top;
+  float: right;
 }
 
-.introduction {
-  font-size: 20px;
-  margin-bottom: 25px;
+.cover .introduction a {
+  text-decoration: underline;
 }
+
 /*Main de Body cover_E*/
 .cover_M {
   display: flex;
