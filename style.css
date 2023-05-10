@@ -21,15 +21,7 @@ a {
   margin-left: 75px;
   margin-right: 75px;
 }
-
-@media all and ( min-width: 300px) {
-  body {
-    width: min-content;
-    height: 600px;
-    }
-  }
-
-
+/*index*/
 /*Header de Body*/
 .rounded {
   width: 650px;
@@ -88,7 +80,7 @@ a {
 .cover_M-title {
   font-size: 25px;
   text-align: center;
-  color: yellowgreen;
+  color: #ef9643;
 }
 
 .cover_M-list {
@@ -128,8 +120,17 @@ legend {
     padding: 3px;
     border-radius: 3px;
 }
-/*Formulaire*/
 
+.button-postez {
+  background-color: #a0a0df;
+  width: 100px;
+  height: 50px;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+/*Formulaire*/
 .header-form h1 {
   text-align: center;
   color: red;
@@ -189,8 +190,8 @@ legend {
 
 /*advertisement*/
 .body-adver {
-  width: 750px;
-  height: 500px;
+  width: auto;
+  /*height: 500px;*/
   margin: auto;
 }
 
@@ -207,6 +208,7 @@ legend {
 
 .main-adver .flux {
   display: flex;
+  flex-direction: column;
     gap: 50px;
 }
 
@@ -242,6 +244,44 @@ legend {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+@media all and ( min-width: 320px) and (max-width:768px ) {
+/*index*/
+  body {
+    flex-direction: column;
+  }
+  .rounded {
+    width: auto;
+  }
+  .list-links {
+    flex-direction: column;
+  }
+  .cover_E-text {
+    margin-left: 30px;
+  }
+/*Formulaire*/
+.header-form {
+  width: auto;
+}
+.main-form-identify {
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.com {
+  flex-direction: column;
+}
+/*advertisement*/
+.header-adver {
+  width: fit-content;
+}
+.flux {
+  flex-direction: column;
+  width: 300px;
+  margin: 50px;
+}
+
 }
 
 

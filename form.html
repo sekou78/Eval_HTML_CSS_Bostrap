@@ -15,74 +15,74 @@
   </head>
 
   <body>
-  <form method="get" action="">
-    <header class="header-form">
-      <p>
-        <img src="ressources/icone/icone.png" class="icon" alt="image reduit du logo">
-        <h1>
-          Formulaire de demande
-        </h1>
-    </p>
-    </header>
-
-    <main class="main-form">
-      <form>
-        <p class="main-form-identify">
-          <label for="prenom" class="send">Prenom:</label>
-          <input type="text" name="prenom" id="prenom" placeholder="Mark" size="20" maxlength="20">
-          <label for="nom" class="send">Nom:</label>
-          <input type="text" name="nom" id="nom" placeholder="Sabou" size="20" maxlength="10">
-          <label for="email" class="send">Email:</label>
-          <input type="email" id="email" placeholder="Mark.Sabou@contact.fr" size="20">
-          <label for="tel" class="send">Telephone:</label>
-          <input type="tel" id="tel" placeholder="__-__-__-__-__" size="20">
-        </p>
-        <p>
-          <h2 class="choose">
-            Selectionnez vos travaux: 
-          </h2>
-          <p class="choose-list">
-          <input type="checkbox" name="Démonter/Monter des meubles" id="Démonter/Monter des meubles"> 
-          <label for="Démonter/Monter des meubles">Démonter/Monter des meubles</label> <br>
-
-          <input type="checkbox" name="Donner un coup de peinture sur vos murs" id="Donner un coup de peinture sur vos murs"> 
-          <label for="Donner un coup de peinture sur vos murs"></label>Donner un coup de peinture sur vos murs</label> <br>
-
-          <input type="checkbox" name="Deplacer/Remplacer les prises électriques" id="Deplacer/Remplacer les prises électriques"> 
-          <label for="Deplacer/Remplacer les prises électriques">Deplacer/Remplacer les prises électriques</label> <br>
-
-          <input type="checkbox" name="Fixer une tringle" id="Fixer une tringle"> 
-          <label for="Fixer une tringle">Fixer une tringle</label> <br>
-
-          <input type="checkbox" name="Reboucher des trous" id="Reboucher des trous"> 
-          <label for="Reboucher des trous">Reboucher des trous</label> <br>
-
-          <input type="checkbox" name="Changer une ampoule" id="Changer une ampoule"> 
-          <label for="Changer une ampoule">Changer une ampoule</label>
+    <form method="get" action="">
+      <header class="header-form">
+        <section>
+          <p>
+            <img src="ressources/icone/icone.png" class="icon" alt="image reduit du logo">
+            <h1>
+              Formulaire de demande
+            </h1>
           </p>
-        </p>
-        <p class="com">
-          <label for="Votre Demande" class="send">Precisez votre Demnande:</label> <br>
-          <textarea name="Votre Demande" id="Votre Demande" cols="50" rows="30"></textarea>
-        </p>
-        <p class="com-file">
-          <label for="imagefile videofile" class="send">Envoyer des Photos ou Videos des travaux </label> <br>
-          <input type="file" id="imagefile" accept="image/*" multiple> <br>
-          ou <br>
-          <input type="file" id="videofile" accept="video/*" multiple>
-        </p>
-      </form>
-      <p class="terms-conditions">
-        <input type="checkbox" name="termes et conditions" id="termes et conditions"> 
-        <label for="termes et conditions">En cochant cette case vous acceptez les termes 
-          et conditions de Bricole Tout!!!</label>
-      </p>
-    </main>
+        </section>
+      </header>
 
-    <footer class="footer-form">
-      <button type="button" title="Envoyer votre Demande" class="btn btn-primary btn-lg">Envoyer</button>
-    </footer>
-  </form>  
+      <main class="main-form">
+            <p class="main-form-identify">
+              <label for="prenom" class="send">Prenom:</label>
+              <input type="text" name="prenom" id="prenom" placeholder="Mark" size="20" maxlength="20" autofocus required>
+              <label for="nom" class="send">Nom:</label>
+              <input type="text" name="nom" id="nom" placeholder="Sabou" size="20" maxlength="10" required>
+              <label for="email" class="send">Email:</label>
+              <input type="email" id="email" placeholder="Mark.Sabou@contact.fr" size="20">
+              <label for="tel" class="send">Telephone:</label>
+              <input type="tel" id="tel"placeholder="__-__-__-__-__" size="20" required >
+            </p>
+          <p>
+            <h2 class="choose">
+              Selectionnez vos travaux: 
+            </h2>
+            <p class="choose-list">
+            <input type="checkbox" name="Démonter/Monter des meubles" id="Démonter/Monter des meubles"> 
+            <label for="Démonter/Monter des meubles">Démonter/Monter des meubles</label> <br>
+
+            <input type="checkbox" name="Donner un coup de peinture sur vos murs" id="Donner un coup de peinture sur vos murs"> 
+            <label for="Donner un coup de peinture sur vos murs"></label>Donner un coup de peinture sur vos murs</label> <br>
+
+            <input type="checkbox" name="Deplacer/Remplacer les prises électriques" id="Deplacer/Remplacer les prises électriques"> 
+            <label for="Deplacer/Remplacer les prises électriques">Deplacer/Remplacer les prises électriques</label> <br>
+
+            <input type="checkbox" name="Fixer une tringle" id="Fixer une tringle"> 
+            <label for="Fixer une tringle">Fixer une tringle</label> <br>
+
+            <input type="checkbox" name="Reboucher des trous" id="Reboucher des trous"> 
+            <label for="Reboucher des trous">Reboucher des trous</label> <br>
+
+            <input type="checkbox" name="Changer une ampoule" id="Changer une ampoule"> 
+            <label for="Changer une ampoule">Changer une ampoule</label>
+            </p>
+          </p>
+          <p class="com">
+            <label for="Votre Demande" class="send">Precisez votre Demnande:</label> <br>
+            <textarea name="Votre Demande" id="Votre Demande" cols="50" rows="30"></textarea>
+          </p>
+          <p class="com-file">
+            <label for="imagefile videofile" class="send">Envoyer des Photos ou Videos des travaux </label> <br>
+            <input type="file" id="imagefile" accept="image/*" multiple> <br>
+            ou <br>
+            <input type="file" id="videofile" accept="video/*" multiple>
+          </p>
+        <p class="terms-conditions">
+          <input type="checkbox" name="termes et conditions" id="termes et conditions"> 
+          <label for="termes et conditions">En cochant cette case vous acceptez les termes 
+            et conditions de Bricole Tout!!!</label>
+        </p>
+      </main>
+
+      <footer class="footer-form">      
+        <button type="button" title="Envoyer votre Demande" class="btn btn-primary btn-lg">Envoyer</button> 
+      </footer>
+    </form>  
   </body>
 
 </html>
