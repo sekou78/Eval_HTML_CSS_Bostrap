@@ -14,7 +14,7 @@
     <title>Formulaire de demande</title>
   </head>
 
-  <body>
+  <body class="container-sm">
     <form method="get" action="">
       <header class="header-form">
         <section>
@@ -41,10 +41,10 @@
               <input type="tel" id="tel"placeholder="__-__-__-__-__" size="20" required >
             </p>
           <p>
-            <h2 class="choose">
+            <h2 class="choose container-sm">
               Selectionnez vos travaux: 
             </h2>
-            <p class="choose-list">
+            <p class="choose-list container-sm">
             <input type="checkbox" name="Démonter/Monter des meubles" id="Démonter/Monter des meubles"> 
             <label for="Démonter/Monter des meubles">Démonter/Monter des meubles</label> <br>
 
@@ -64,24 +64,24 @@
             <label for="Changer une ampoule">Changer une ampoule</label>
             </p>
           </p>
-          <p class="com">
+          <p class="com container-sm">
             <label for="Votre Demande" class="send">Precisez votre Demnande:</label> <br>
             <textarea name="Votre Demande" id="Votre Demande" cols="50" rows="30"></textarea>
           </p>
-          <p class="com-file">
+          <p class="com-file container-sm">
             <label for="imagefile videofile" class="send">Envoyer des Photos ou Videos des travaux </label> <br>
             <input type="file" id="imagefile" accept="image/*" multiple> <br>
             ou <br>
             <input type="file" id="videofile" accept="video/*" multiple>
           </p>
-        <p class="terms-conditions">
+        <p class="terms-conditions container-sm">
           <input type="checkbox" name="termes et conditions" id="termes et conditions"> 
           <label for="termes et conditions">En cochant cette case vous acceptez les termes 
             et conditions de Bricole Tout!!!</label>
         </p>
       </main>
 
-      <footer class="footer-form">      
+      <footer class="footer-form container-sm">      
         <button type="button" title="Envoyer votre Demande" class="btn btn-primary btn-lg">Envoyer</button> 
       </footer>
     </form>  
