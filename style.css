@@ -269,15 +269,14 @@ legend {
 }
 .com {
   flex-direction: column;
+  width: 120%;
 }
 /*advertisement*/
 .header-adver {
   width: fit-content;
 }
 .flux {
-  flex-direction: column;
-  width: 300px;
-  margin: 50px;
+  margin: 5px;
 }
 
 }
